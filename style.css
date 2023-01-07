@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*Header section style*/
+header{
+    background-image: url("./images/banner/banner1.png");
+    height: 808px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header-banner-info{
+    height: 228px;
+    width: 528px;
+    text-align: right;
+    margin: 216px 230px 0 0;
+}
+
+#header-banner-info h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+#header-banner-info p{
+    color: #737272;
+    font-size: 16px;
+}
+#header-banner-info button{
+    border: none;
+    background-color: #F15B22;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*main section style*/
+
+.main-content{
+    display: flex;
+    margin: 131px 0 0 206px;
+    align-items: center;
+    column-gap: 70px;
+
+}
+.main-content img{
+    height: 723.3px ;
+    width: 569px;
+}
+.main-content-info{
+    height: 400px;
+    width: 416px;
+    margin-top: 150px;
+}
+.main-content-info h1{
+    font-size: 40px;
+    line-height: 47px;
+}
+.main-content-info p{
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.main-content-info ul{
+    margin-top: 20px;
+}
+.main-content-info ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+.main-content-info li img{
+    height: 16px;
+    width: 16px;
+}
+.main-content-info ul li p{
+    margin: 0;
+    padding-left: 8px;
+    font-size: 16px;
+}
+
+/*my plan section*/
+.main-content-myplan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 230px;
+}
+.main-content-myplan h1{
+    font-size: 40px;
+    padding: 10px;
+   
+}
+
+.plan-items ul{
+    display: flex;
+    margin-top: 25px;
+}
+
+.plan-items ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 40px;
+    height: 197px;
+    width: 218px;
+}
+.plan-items img{
+    height: 90px;
+    width: 92px;
+}
+.plan-items ul li h1{
+    font-size: 22px;
+}
+.plan-items ul li p{
+    font-size: 18px;
+}
+/*my-skill style*/
+
+.my-skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 130px 200px;
+}
+.my-skill h1{
+    font-size: 40px;
+}
+
+.skill-items ul{
+    display: flex;
+}
+.skill-items img{
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    cursor: pointer;
+    margin: 10px;
+}
+.skill-items img:hover{
+    border: 3px dotted orange ;
+}
+.skill-items{
+    margin: 50px 0 0 30px;
+}
+
+
+/*main-content-contact style*/
+.main-content-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.main-content-contact #img-container{
+    background-image: url("./images/watch.png");
+    background-repeat: no-repeat;
+    position: relative;
+    top:0;
+    left:0;
+}
+
+.contact-part{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    height: 182px;
+    width: 460px;
+    color: white;
+}
+.contact-part h1{
+    font-size: 40px;
+}
+.contact-part button{
+    border: none;
+    background-color: white ;
+    color:#F15B22;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/*footer style*/
+footer{
+    display: flex;
+    max-width: 100vw;
+    height: 390px;
+    background-color: black;
+    align-items: flex-start;
+    color: white;
+    justify-content:space-evenly;
+    padding-top: 130px;
+}
+
+.footer-future{
+    height: 317px;
+    width: 485px;
+    line-height: 26px;
+    font-size: 16px;
+
+}
+
+.footer-future h1{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.footer-future .social-icons{
+    display: flex;
+    column-gap: 17px;
+    margin-top: 30px;
+}
+
+.footer-future .social-icons img{
+    height: 46px;
+    width: 47px;
+    cursor: pointer;
+}
+.email-phone{
+    margin-top: 30px;
+}
+
+.footer-subscribe form input{
+    margin-top: 30px;
+    background-color: black;
+    width: 325px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.footer-subscribe button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    height: 50px;
+    width: 170px;
+    background-color: white;
+    color: #F15B22;
+    font-size: 16px;
+    cursor: pointer;
+}
+.footer-subscribe h1{
+    font-weight: 700;
+    font-size: 25px;
+}
